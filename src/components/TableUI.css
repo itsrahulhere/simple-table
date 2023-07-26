@@ -1,0 +1,30 @@
+#dropdown-basic-button {
+  background: none;
+  border: none;
+  color: black;
+  font-size: medium;
+  font-weight: bold;
+}
+
+.editBtn,
+.sortBtn {
+  background: none;
+  border: none;
+}
+
+#dropdown-basic-button:hover,
+.editBtn:hover,
+.sortBtn:hover {
+  color: rgb(85, 111, 206);
+}
+
+.priceElements {
+  margin-bottom: 5px;
+  width: 70px;
+}
+
+td,
+th {
+  text-align: center;
+  vertical-align: middle;
+}
