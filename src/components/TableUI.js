@@ -23,7 +23,7 @@ function TableUI() {
   const forceUpdate = useForceUpdate();
 
   const fetchTableData = () => {
-    fetch("http://localhost:3001/data")
+    fetch("https://json-server-render-hiv1.onrender.com/data")
       .then((response) => {
         return response.json();
       })
@@ -51,7 +51,7 @@ function TableUI() {
       data_1.price = oldPrice;
     }
 
-    fetch(`http://localhost:3001/data/${id}`, {
+    fetch(`https://json-server-render-hiv1.onrender.com/data/${id}`, {
       method: "PUT",
       body: JSON.stringify(data_1),
       headers: {
